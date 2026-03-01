@@ -1,9 +1,10 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!doctype html>
 <html lang="zh">
 
 <head>
 
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Homepage of Zuming Huang">
   <title>Zuming Huang's Homepage</title>
   <link rel="stylesheet" type="text/css" href="assets/css/zuminghuang.css">
@@ -12,138 +13,227 @@
 
 <body>
 
-  <!-- Introduction -->
-  <table border="0" width="100%">
-    <tbody>
-      <tr>
-        <td width="40%">
-          <img src="assets/images/portrait.jpg" id="random-image" align="middle" height="200" width="">
-        </td>
-        <td width="60%">
-          <h2 style="text-align: left;"> Welcome to Zuming Huang's Home Page! </h2>
-            <h3 style="text-align: left;"> [<a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=UjnuehYAAAAJ" target="_blank">Google Scholar</a>] [<a href="https://github.com/ZumingHuang" target="_blank">Github</a>] </h3>
-            <h3 style="text-align: left;"> Email: zuming dot hzm at gmail dot com </h3>
-        </td>
-      </tr>
-    </tbody>
-  </table>
+  <div class="page">
+    <nav class="tabs" aria-label="Primary">
+      <button class="tab is-active" type="button" data-tab="home" aria-controls="panel-home" aria-selected="true">Home</button>
+      <button class="tab" type="button" data-tab="interest" aria-controls="panel-interest" aria-selected="false">Personal Interest</button>
+    </nav>
 
-  <!-- About Me -->
-  <table border="0" width="100%">
-    <tbody>
-      <tr>
-        <td width="100%">
-          <h2> About Me </h2>
-            <h3> Zuming Huang is a senior algorithm engineer at the multi-modality cognition team of Ant Group since April 2019. Previously he served as an algorithm engineer at Baidu Inc., department of computer vision technology. He received his Bachelor's degree in Information Engineering at South China University of Technology (SCUT), Master's degree in Pattern Recognition and Intelligence System from Institute of Automation, Chinese Academy of Sciences (CASIA). His research interests include OCR, Document Intelligence and Large Multimodal Models. </h3>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <!-- Experience -->
-  <table border="0" width="100%">
-    <tbody>
-      <tr>
-        <td width="100%">
-          <h2> Experience & Education </h2>
-            <ul>
-              <li><h3> 2019.04 - Present, Ant Group (Hangzhou), Multi-modality Cognition Team, Senior Algorithm Engineer. </h3></li>
-              <li><h3> 2017.06 - 2019.04, Baidu Inc. (Beijing), Department of Computer Vision Technology (VIS), Algorithm Engineer. </h3></li>
-              <li><h3> 2014.09 - 2017.06, Institute of Automation, Chinese Academy of Sciences (CASIA), Majored in Pattern Recognition and Intelligence System, Master's degree.</h3></li>
-              <li><h3> 2010.09 - 2014.07, South China University of Technology (SCUT), Majored in Information Engineering, Bachelor's degree.</h3></li>
-            </ul>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <!-- Publications -->
-  <table border="0" width="100%">
-    <tbody>
-      <tr>
-        <td width="100%">
-          <h2> Publications </h2>
-            <ul>
-              <li><h3> Xiaoyu Li, Xiaoxue Chen, Zuming Huang, et al. Fine-grained Pesudo Labels for Scene Text Recognition. In ACM MM, 2023. (CCF A) </h3></li>
-              <li><h3> Chengquan Zhang*, Borong Liang*, Zuming Huang*, et al. Look More Than Once: An Accurate Detector for Text of Arbitrary Shapes. In CVPR, 2019. (CCF A) </h3></li>
-              <li><h3> Pengfei Wang, Chengquan Zhang, Fei Qi, Zuming Huang, et al. A Single-shot Arbitrarily-shaped Text Detector based on Context Attended Multi-task Learning. In ACM MM, 2019. (CCF A) </h3></li>
-              <li><h3> Yipeng Sun, Chengquan Zhang, Zuming Huang, et al. TextNet: Irregular Text Reading from Images with an End-to-End Trainable Network. In ACCV, 2018. (Oral, CCF C) </h3></li>
-              <li><h3> Zuming Huang, Guangliang Cheng, et al. Building Extraction from Multi-source Remote Sensing Images via Deep Deconvolution Neural Networks. In IGRASS, 2016. </h3></li>
-              <li><h3> Gaofeng Meng, Zuming Huang, et al. Extraction of Virtual Baselines from Distorted Document Images using Curvilinear Projection. In ICCV, 2015. (CCF A) </h3></li>
-              <li><h3> Zuming Huang, Jie Gu, et al. Text Line Extraction of Curved Document Images using Hybrid Metric. In ACPR, 2015. </h3></li>
-              <li><h3> Jing Lu, Zuming Huang, et al. Distance-weighted Backlog Differentials for Back-pressure Routing in Multi-hop Wireless Networks. In ICCC, 2014. (Best Paper Award) </h3></li>
-            </ul>
-        </td>
-      </tr>
-    </tbody>
-  </table>
+    <main class="content">
+      <section id="panel-home" class="tab-panel" data-panel="home">
+        <header class="hero">
+          <img class="avatar" src="assets/images/portrait.jpg" alt="Portrait of Zuming Huang" width="200" height="200" loading="eager" decoding="async">
+          <div class="hero-text">
+            <h1 class="title">Zuming Huang</h1>
+            <p class="subtitle">Staff Algorithm Engineer</p>
+            <p class="subtitle">Document Intelligence · Large Multimodal Models · Reinforcement Learning</p>
+            <div class="links">
+              <a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=UjnuehYAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+              <span class="dot">·</span>
+              <a href="https://github.com/ZumingHuang" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+            <p class="meta">Email: zuming dot hzm at gmail dot com</p>
+          </div>
+        </header>
 
-  <!-- Honors -->
-  <table border="0" width="100%">
-    <tbody>
-      <tr>
-        <td width="100%">
-          <h2> Honors & Awards </h2>
-            <ul>
-              <li><h3> CCF Science and Technology Award, 2023 </h3></li>
-              <li><h3> Winning Team, ICDAR Competition on SVRD, 2023 </h3></li>
-              <li><h3> Honorable Mentor, Ant Group, 2021 </h3></li>
-              <li><h3> Excellent Project, Baidu Vis, 2018 </h3></li>
-              <li><h3> Best New Employee Award, Baidu Vis, 2017 </h3></li>
-              <li><h3> Outstanding Student Cadre Award, CASIA, 2016 </h3></li>
-              <li><h3> National Scholarship, CASIA, 2016 </h3></li>
-              <li><h3> Best Paper Award, ICCC, 2014 </h3></li>
-              <li><h3> Student Award of Merit, SCUT, 2013 </h3></li>
-              <li><h3> National Scholarship, SCUT, 2012 </h3></li>
-            </ul>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-  
-  <!-- Personal Interest -->
-  <table border="0" width="100%">
-    <tbody>
-      <tr>
-        <td width="100%">
-          <h2> Personal Interest </h2>
-            <h3> I am a football fan and have been watching and playing football matches since my middle school years. </h3>
-        </td>
-      </tr>
-      </tr>
-    </tbody>
-  </table>
-  <table border="0" width="100%">
-    <tbody>
-      <tr>
-        <td width="20%">
-          <img src="assets/images/football_rm1.jpg" id="random-image" align="middle" height="200" width="">
-        </td>
-        <td width="80%">
-          <img src="assets/images/football_rm4.jpg" id="random-image" align="middle" height="200" width="">
-        </td>
-      </tr>
-      </tr>
-    </tbody>
-  </table>
-  <table border="0" width="100%">
-    <tbody>
-      <tr>
-        <td width="15%">
-          <img src="assets/images/football_hengda2.jpg" id="random-image" align="middle" height="200" width="">
-        </td>
-        <td width="15%">
-          <img src="assets/images/football_university.jpg" id="random-image" align="middle" height="200" width="">
-        </td>
-        <td width="15%">
-          <img src="assets/images/football_ucas1.jpg" id="random-image" align="middle" height="200" width="">
-        </td>
-        <td width="55%">
-          <img src="assets/images/football_ant.jpg" id="random-image" align="middle" height="200" width="">
-        </td>
-      </tr>
-    </tbody>
-  </table>
+        <section class="card" aria-labelledby="about">
+          <h2 id="about">About Me</h2>
+          <p>
+            Zuming Huang is currently a staff algorithm engineer on the multimodal team at INF Tech since December 2024.
+            Previously, he worked on the multi-modality cognition team at Ant Group starting from April 2019.
+            Before that, he served as an algorithm engineer in the Computer Vision Technology Department at Baidu Inc.
+            He received his Bachelor's degree in Information Engineering from South China University of Technology (SCUT) and his Master's degree in Pattern Recognition and Intelligent Systems from the Institute of Automation, Chinese Academy of Sciences (CASIA).
+            His research interests include Document Intelligence, Large Multimodal Models, and Reinforcement Learning.
+          </p>
+        </section>
+
+        <section class="card" aria-labelledby="exp">
+          <h2 id="exp">Experience &amp; Education</h2>
+          <ul class="list">
+            <li><span class="item">2024.12 - Present</span> INF Tech, Multimodal Team, Staff Algorithm Engineer.</li>
+            <li><span class="item">2019.04 - 2024.12</span> Ant Group (Hangzhou), Multi-modality Cognition Team, Senior Algorithm Engineer.</li>
+            <li><span class="item">2017.06 - 2019.04</span> Baidu Inc. (Beijing), Department of Computer Vision Technology (VIS), Algorithm Engineer.</li>
+            <li><span class="item">2014.09 - 2017.06</span> Institute of Automation, Chinese Academy of Sciences (CASIA), M.S. in Pattern Recognition and Intelligence System.</li>
+            <li><span class="item">2010.09 - 2014.07</span> South China University of Technology (SCUT), B.Eng. in Information Engineering.</li>
+          </ul>
+        </section>
+
+        <section class="card" aria-labelledby="pub">
+          <h2 id="pub">Selected Publications</h2>
+          <ul class="list">
+            <li class="pub-item">
+              <div class="pub-title">Infinity Parser: Layout Aware Reinforcement Learning for Scanned Document Parsing</div>
+              <div class="pub-authors">Baode Wang, Biao Wu, Weizhen Li, Meng Fang, <strong>Zuming Huang</strong>, Jun Huang, Haozhe Wang, Yanjie Liang, Ling Chen, Wei Chu, and Yuan Qi</div>
+              <div class="pub-venue">Technical Report, 2025. (<span style="color: #dc2626;">Project Lead</span>)</div>
+              <div class="pub-links"><a href="https://arxiv.org/pdf/2506.03197" style="text-decoration: underline;">Paper</a> / <a href="https://github.com/infly-ai/INF-MLLM?tab=readme-ov-file#infinity-parser" style="text-decoration: underline;">Code</a> / <a href="https://huggingface.co/datasets/infly/Infinity-Doc-400K" style="text-decoration: underline;">Dataset</a> / <a href="https://huggingface.co/infly/Infinity-Parser-7B" style="text-decoration: underline;">Model</a></div>
+            </li>
+            <li class="pub-item">
+              <div class="pub-title">VL-Rethinker: Incentivizing Self-Reflection of Vision-Language Models with Reinforcement Learning</div>
+              <div class="pub-authors">Haozhe Wang, Chao Qu, <strong>Zuming Huang</strong>, Wei Chu, Fangzhen Lin, and Wenhu Chen</div>
+              <div class="pub-venue">Conference on Neural Information Processing Systems (<strong>NeurIPS</strong>), 2025. (<span style="color: #dc2626;">CCF-A, Spotlight</span>)</div>
+              <div class="pub-links"><a href="https://arxiv.org/pdf/2504.08837" style="text-decoration: underline;">Paper</a> / <a href="https://github.com/infly-ai/INF-MLLM?tab=readme-ov-file#vl-rethinker" style="text-decoration: underline;">Code</a> / <a href="https://huggingface.co/datasets/TIGER-Lab/ViRL39K" style="text-decoration: underline;">Dataset</a> / <a href="https://huggingface.co/TIGER-Lab/VL-Rethinker-7B" style="text-decoration: underline;">Model</a></div>
+            </li>
+            <li class="pub-item">
+              <div class="pub-title">Fine-grained Pesudo Labels for Scene Text Recognition</div>
+              <div class="pub-authors">Xiaoyu Li, Xiaoxue Chen, <strong>Zuming Huang</strong>, Lele Xie, Jingdong Chen, and Ming Yang</div>
+              <div class="pub-venue">ACM International Conference on Multimedia (<strong>ACM MM</strong>), 2023. (<span style="color: #dc2626;">CCF-A</span>)</div>
+              <div class="pub-links"><a href="https://dl.acm.org/doi/epdf/10.1145/3581783.3611791" style="text-decoration: underline;">Paper</a></div>
+            </li>
+            <li class="pub-item">
+              <div class="pub-title">Look More Than Once: An Accurate Detector for Text of Arbitrary Shapes</div>
+              <div class="pub-authors">Chengquan Zhang*, Borong Liang*, <strong>Zuming Huang</strong>*, Mengyi En, Junyu Han, Errui Ding, and Xinghao Ding</div>
+              <div class="pub-venue">Computer Vision and Pattern Recognition Conference (<strong>CVPR</strong>), 2019. (<span style="color: #dc2626;">CCF-A, Equal first authors</span>)</div>
+              <div class="pub-links"><a href="https://openaccess.thecvf.com/content_CVPR_2019/papers/Zhang_Look_More_Than_Once_An_Accurate_Detector_for_Text_of_CVPR_2019_paper.pdf" style="text-decoration: underline;">Paper</a></div>
+            </li>
+            <li class="pub-item">
+              <div class="pub-title">A Single-shot Arbitrarily-shaped Text Detector based on Context Attended Multi-task Learning</div>
+              <div class="pub-authors">Pengfei Wang, Chengquan Zhang, Fei Qi, <strong>Zuming Huang</strong>, Mengyi En, Junyu Han, Jingtuo Liu, Errui Ding, Guangming Shi</div>
+              <div class="pub-venue">ACM International Conference on Multimedia (<strong>ACM MM</strong>), 2019. (<span style="color: #dc2626;">CCF-A, Integrated into PaddleOCR</span>)</div>
+              <div class="pub-links"><a href="https://arxiv.org/pdf/1908.05498" style="text-decoration: underline;">Paper</a> / <a href="https://github.com/PaddlePaddle/PaddleOCR/blob/main/docs/version2.x/algorithm/text_detection/algorithm_det_sast.en.md" style="text-decoration: underline;">Code</a></div>
+            </li>
+            <li class="pub-item">
+              <div class="pub-title">TextNet: Irregular Text Reading from Images with an End-to-End Trainable Network</div>
+              <div class="pub-authors">Yipeng Sun, Chengquan Zhang, <strong>Zuming Huang</strong>, Jiaming Liu, Junyu Han, and Errui Ding</div>
+              <div class="pub-venue">Asian Conference on Computer Vision (<strong>ACCV</strong>), 2018. (<span style="color: #dc2626;">Oral</span>)</div>
+              <div class="pub-links"><a href="https://arxiv.org/pdf/1812.09900" style="text-decoration: underline;">Paper</a></div>
+            </li>
+            <li class="pub-item">
+              <div class="pub-title">Building Extraction from Multi-source Remote Sensing Images via Deep Deconvolution Neural Networks</div>
+              <div class="pub-authors"><strong>Zuming Huang</strong>, Guangliang Cheng, Hongzhen Wang, Haichang Li, Limin Shi, and Chunhong Pan</div>
+              <div class="pub-venue">International Geoscience and Remote Sensing Symposium (<strong>IGARSS</strong>), 2016.</div>
+              <div class="pub-links"><a href="https://ieeexplore.ieee.org/document/7729471" style="text-decoration: underline;">Paper</a></div>
+            </li>
+            <li class="pub-item">
+              <div class="pub-title">Extraction of Virtual Baselines from Distorted Document Images using Curvilinear Projection</div>
+              <div class="pub-authors">Gaofeng Meng, <strong>Zuming Huang</strong>, Yonghong Song, Shiming Xiang, and Chunhong Pan.</div>
+              <div class="pub-venue">International Conference on Computer Vision (<strong>ICCV</strong>), 2015. (<span style="color: #dc2626;">CCF-A</span>)</div>
+              <div class="pub-links"><a href="https://openaccess.thecvf.com/content_iccv_2015/papers/Meng_Extraction_of_Virtual_ICCV_2015_paper.pdf" style="text-decoration: underline;">Paper</a></div>
+            </li>
+          </ul>
+        </section>
+
+        <section class="card" aria-labelledby="honor">
+          <h2 id="honor">Honors &amp; Awards</h2>
+          <ul class="list">
+            <li>Employee of the Year, INF Tech, 2025</li>
+            <li>CCF Science and Technology Award, 2023</li>
+            <li>Winning Team, ICDAR Competition on SVRD, 2023</li>
+            <li>Honorable Mentor, Ant Group, 2021</li>
+            <li>Excellent Project, Baidu Vis, 2018</li>
+            <li>Best New Employee Award, Baidu Vis, 2017</li>
+            <li>Outstanding Student Cadre Award, CASIA, 2016</li>
+            <li>National Scholarship, CASIA, 2016</li>
+            <li>Best Paper Award, ICCC, 2014</li>
+            <li>Student Award of Merit, SCUT, 2013</li>
+            <li>National Scholarship, SCUT, 2012</li>
+          </ul>
+        </section>
+      </section>
+
+      <section id="panel-interest" class="tab-panel" data-panel="interest" hidden>
+        <section class="card" aria-labelledby="interest">
+          <h2 id="interest">Personal Interest</h2>
+          <p>I'm a massive football fan. I've been playing and following the game since middle school.</p>
+          <div class="gallery">
+            <figure class="shot">
+              <img class="lazy-img" alt="Football memory (RM 1)" width="640" height="360"
+                   src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw=="
+                   data-src="assets/images/football_rm1.jpg" loading="lazy" decoding="async">
+            </figure>
+            <figure class="shot">
+              <img class="lazy-img" alt="Football memory (Hengda)" width="640" height="360"
+                   src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw=="
+                   data-src="assets/images/football_hengda2.jpg" loading="lazy" decoding="async">
+            </figure>
+            <figure class="shot">
+              <img class="lazy-img" alt="Football memory (University)" width="640" height="360"
+                   src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw=="
+                   data-src="assets/images/football_university.jpg" loading="lazy" decoding="async">
+            </figure>
+            <figure class="shot">
+              <img class="lazy-img" alt="Football memory (UCAS)" width="640" height="360"
+                   src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw=="
+                   data-src="assets/images/football_ucas1.jpg" loading="lazy" decoding="async">
+            </figure>
+            <figure class="shot">
+              <img class="lazy-img" alt="Football memory (Ant)" width="640" height="360"
+                   src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw=="
+                   data-src="assets/images/football_ant.jpg" loading="lazy" decoding="async">
+            </figure>
+            <figure class="shot">
+              <img class="lazy-img" alt="Football memory (Ant)" width="640" height="360"
+                   src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw=="
+                   data-src="assets/images/football_shanghai.jpg" loading="lazy" decoding="async">
+            </figure>
+            <figure class="shot is-wide">
+              <img class="lazy-img" alt="Football memory (RM 4)" width="1280" height="360"
+                   src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw=="
+                   data-src="assets/images/football_rm4.jpg" loading="lazy" decoding="async">
+            </figure>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>© <span id="year"></span> Zuming Huang</span>
+      <span class="visitor-count"><span id="visitor-count">0</span> visitors since March, 2026</span>
+    </footer>
+  </div>
+
+  <script>
+    (function () {
+      var tabs = Array.prototype.slice.call(document.querySelectorAll('.tab'));
+      var panels = Array.prototype.slice.call(document.querySelectorAll('.tab-panel'));
+      var year = document.getElementById('year');
+      if (year) year.textContent = String(new Date().getFullYear());
+
+      // Visitor counter
+      var visitorCountEl = document.getElementById('visitor-count');
+      if (visitorCountEl) {
+        try {
+          var storedCount = localStorage.getItem('visitorCount');
+          var count = storedCount ? parseInt(storedCount, 10) : 0;
+          count++;
+          localStorage.setItem('visitorCount', String(count));
+          visitorCountEl.textContent = count.toLocaleString();
+        } catch (e) {
+          // If localStorage is not available, show default
+          visitorCountEl.textContent = '99';
+        }
+      }
+
+      function activate(name) {
+        tabs.forEach(function (t) {
+          var isActive = t.getAttribute('data-tab') === name;
+          t.classList.toggle('is-active', isActive);
+          t.setAttribute('aria-selected', isActive ? 'true' : 'false');
+        });
+        panels.forEach(function (p) {
+          var isTarget = p.getAttribute('data-panel') === name;
+          if (isTarget) p.removeAttribute('hidden');
+          else p.setAttribute('hidden', '');
+        });
+
+        // Lazy-load images only when "Personal Interest" tab is opened.
+        if (name === 'interest') {
+          var imgs = document.querySelectorAll('#panel-interest img[data-src]');
+          imgs.forEach(function (img) {
+            if (!img.getAttribute('data-loaded')) {
+              img.src = img.getAttribute('data-src');
+              img.setAttribute('data-loaded', '1');
+            }
+          });
+        }
+      }
+
+      tabs.forEach(function (t) {
+        t.addEventListener('click', function () {
+          activate(t.getAttribute('data-tab'));
+        });
+      });
+    })();
+  </script>
 
 </body>
 
